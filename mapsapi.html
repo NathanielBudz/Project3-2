@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>My Resume</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <h1>Nathaniel Budz</h1>
+  <h2>Navigation</h2>
+  <nav id="main-page">
+    <ul>
+      <li><a href="index.html">Resume</a></li>
+      <li><a href="aboutme.html">About Me</a></li>
+      <li><a href="myrankings.html">My Star Wars Rankings</a></li>
+	  <li><a href="mapsapi.html">Google Maps</a></li>
+    </ul>
+  </nav>
+  <div id="map" style="height: 400px; width: 500px;"></div>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkgxq034M6hV9stcsXeZjqlmlk7gBd7DM&callback=initMap"></script>
+  <script>
+    function initMap() {
+      var mapOptions = {
+        center: { lat: 41.881832, lng: -87.623177 },
+        zoom: 12
+      };
+      var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+    }
+  </script>
+</body>
+</html>
