@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'biorhymeregular';
+    src: url('biorhyme-regular-webfont.woff2') format('woff2'),
+         url('biorhyme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	background-color: #bfbfcf
+}
+h1 {
+	text-align: center;
+  	font-size: 40px;
+  	color: #333;
+  	background-color: #0077b6;
+ 	padding: 20px;
+  	border: 3px solid;
+  	border-radius: 10px;
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+h2 {
+	text-align: center;
+	font-family: 'biorhymeregular';
+	font-size: 45px;
+}
+h3 {
+	text-align: left;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+  	font-size: 40px;
+  	color: #333;
+  	background-color: #0077b6;
+ 	padding: 20px;
+  	border: 3px solid;
+  	border-radius: 10px;
+  	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+}
+p {
+	text-align: left;
+	font-size: 25px;
+	font-family: 'biorhymeregular';
+	color: #333;
+}
+	
+#main-page ul {
+	list-style: none; 
+ 	text-align: center; 
+  	padding: 0;
+	text-decoration:none; 	
+}
+#main-page ul li {
+	display: inline-block;
+  	transition: color 0.5s;
+	font-size: 30px;
+	text-align: center;
+	margin-right: 40px;
+	text-decoration:none; 
+}
+#main-page ul li a:hover {
+	color: #0077b6
+}
+.rankings {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+h4 { 
+	text-align: left;
+	font-size: 50px;
+	font-family: 'Courier New', monospace;
+}
+.family {
+	border-radius: 50%; 
+}
+.review {
+	font-style: italic;
+	text-align: left;
+}
+.interests {
+	text-align: left;
+	font-size: 35px;
+	font-family: Garamond, serif;
+}
+.microcenter {
+	list-style: none;
+	font-size: 90%;
+	padding: 5%;
+}
